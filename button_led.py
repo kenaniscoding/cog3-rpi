@@ -11,12 +11,13 @@ GPIO.setup(led_pin, GPIO.OUT)
 GPIO.setup(button_pin, GPIO.IN)
 
 try:
-while True:
-    button_state = GPIO.input(button_pin)
-    if button_state == GPIO.LOW:
-    GPIO.output(led_pin, GPIO.HIGH)
-    else:
-    GPIO.output(led_pin, GPIO.LOW)
-    time.sleep(0.02)
+    while True:
+        button_state = GPIO.input(button_pin)
+        if button_state == GPIO.LOW:
+            GPIO.output(led_pin, GPIO.HIGH)
+        else:
+            GPIO.output(led_pin, GPIO.LOW)
+            time.sleep(0.02)
 except KeyboardInterrupt:
+    print("cleaning gpio")
     GPIO.cleanup()
