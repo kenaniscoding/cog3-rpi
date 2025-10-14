@@ -20,7 +20,7 @@ index = 0      # Current LED index
 delay = 0.2    # Speed of movement (seconds)
 last_button_state = GPIO.LOW
 
-print("LED pattern program started. Press Ctrl+C to stop.")
+# print("LED pattern program started. Press Ctrl+C to stop.")
 
 try:
     while True:
@@ -53,8 +53,8 @@ try:
         time.sleep(delay)
 
 except KeyboardInterrupt:
-    print("\nProgram stopped by user.")
+    print("\nstopped")
 
 finally:
     GPIO.cleanup()
-    print("GPIO cleaned up. Exiting...")
+    print("gpio clean")
