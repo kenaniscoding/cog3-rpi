@@ -1,7 +1,8 @@
 import RPi.GPIO as GPIO
 import time 
 
-led_pins =[17, 18, 27 22]
+led_pins = [4, 18, 27, 22]
+# led_pins =[17, 18, 27 22]
 button_pin = 23
 
 GPIO.setmode(GPIO.BCM)
