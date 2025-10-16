@@ -53,7 +53,9 @@ For this task, you will be needing the following external circuit components:
 
 `-- YOUR ANSWER HERE --`
 
-3. We will be testing the GPIO for generating digital signals, particularly for blinking an LED. Connect one leg of the LED through the 220 ohm resistor to GPIO 17 pin and one leg to a ground pin. Take a picture of your setup.
+3. We will be testing the GPIO for generating digital signals, 
+particularly for blinking an LED. Connect one leg of the LED through the 220 ohm resistor to GPIO 17 pin and
+one leg to a ground pin. Take a picture of your setup.
 
 `-- YOUR ANSWER HERE --`
 
