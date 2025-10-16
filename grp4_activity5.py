@@ -81,11 +81,13 @@ one leg to a ground pin. Take a picture of your setup.
 
 `-- YOUR ANSWER HERE --`
 
-5. We will now be testing the GPIO to read in digital signals, particularly read the state of a push button. Connect one leg of the push button to GPIO 27 pin and the other leg to a ground pin. Take a picture of your setup.
+5. We will now be testing the GPIO to read in digital signals, particularly read the state of a push button.
+Connect one leg of the push button to GPIO 27 pin and the other leg to a ground pin. Take a picture of your setup.
 
 `-- YOUR ANSWER HERE --`
 
-6. In the Thonny Python IDE, create a new Python script named "button_led.py" saved at the Documents folder. Enter the following code to read the button's state and control the LED. Run the script and take a video of the setup to show that it is working.
+6. In the Thonny Python IDE, create a new Python script named "button_led.py" saved at the Documents folder. 
+Enter the following code to read the button's state and control the LED. Run the script and take a video of the setup to show that it is working.
 
 ```
   import RPi.GPIO as GPIO
