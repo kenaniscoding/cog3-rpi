@@ -21,7 +21,7 @@ delay = 0.2    # Speed of movement (seconds)
 last_button_state = GPIO.LOW
 
 # print("LED pattern program started. Press Ctrl+C to stop.")
-
+GPIO.add_event_detect(button_pin, GPIO.RISING, callback=(direction*=-1), bouncetime=300)
 try:
     while True:
         # --- Button check ---
