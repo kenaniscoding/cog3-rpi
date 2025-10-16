@@ -195,7 +195,9 @@ Enter the following code to read the button's state and control the LED. Run the
 
 # -- YOUR CODE HERE -- #
 
-"""10. Modify the code in Step C.8 so that the program will save a frame if a button connected to the GPIO header pin is pressed. The program should not overwrite previously saved frames but instead use a sequential numbering scheme for file naming. You may choose any GPIO pin as long as it supports digital input. Provide the code below."""
+"""10. Modify the code in Step C.8 so that the program will save a frame if a button connected to the GPIO header pin is pressed. 
+The program should not overwrite previously saved frames but instead use a sequential numbering scheme for file naming.
+You may choose any GPIO pin as long as it supports digital input. Provide the code below."""
 
 # -- YOUR CODE HERE -- #
 
