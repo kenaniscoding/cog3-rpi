@@ -11,8 +11,10 @@ GPIO.setup(led_pin, GPIO.OUT)
 try:
     while True:
         GPIO.output(led_pin, GPIO.HIGH)
+        print("HIGH\n")
         time.sleep(5)
         GPIO.output(led_pin, GPIO.LOW)
+        print("LOW\n")
         time.sleep(5)
 except KeyboardInterrupt:
     GPIO.cleanup()
